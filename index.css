@@ -149,5 +149,23 @@ p.test {
     margin: 60px 40px 40px 40px;
 }
 
+h1 {
+    width: 100%;
+}
 
+@media only screen and (max-width: 672px) {
+    .logo {
+        display: none;
+    }
+
+    nav ul {
+        padding: 0;
+        width: 100%;
+    }
+
+    nav ul li {
+        padding: 0px;
+        margin: 14px 0px 14px 0px;
+    }
+}
 
